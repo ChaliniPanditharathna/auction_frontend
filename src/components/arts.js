@@ -26,6 +26,7 @@ const Art = (props) => {
 
   // Find the highest bid from the bids array
   const highestBid = props.bids.length > 0 ? Math.max(...props.bids.map(b => b.bid)) : 0;
+  console.log("test")
 
   // Handle form submission
   const handleSubmit = (e) => {
